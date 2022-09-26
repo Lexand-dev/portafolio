@@ -5,21 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
     <title>Mi portafolio</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="">Contact</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Proyectos</a></li>
-                <li><a href="">Sobre mi</a></li>
+    <header class="header">
+        <img class="header--img" src="./logo.png" alt="">
+        <a href="">Home</a>
+        <nav class="header-nav">
+            <ul class="header--list">
+                <li><a href="#About">About</a></li>
+                <li><a href="#Proyectos">Proyectos</a></li>
+                <li><a href="#Blog">Blog</a></li>
+                <li><a href="#Contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        
+        <section id="About"> 
+            <div class="main-img--perfil">
+                <img src="./perfil.png" alt="">
+            </div>
+
+            <div class="main-about--info">
+                <h2 class="main-about--info--title">Lexandev Fronted Developer</h2>
+                <p class="main-about--info--text">Me gusta hacer cositas con html y css xd.</p>
+                <div class="main-about--social-media">
+                    <h3>social media</h3>
+                    <ul>
+                        <li>
+                            <a href="">LinkedIn</a>
+                            <a href="">Github</a>
+                            <a href="">Twitter</a>
+                            <a href="">Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </section>
+        <section id="Proyectos">
+            <article>
+                <h3>Proyecto 1</h3>
+                <p>
+                    Mi proyecto 1
+                </p>
+            </article>
+            <article>
+                <h3>Proyecto 2</h3>
+                <p>
+                    Mi proyecto 2
+                </p>
+            </article>
+            <article>
+                <h3>Proyecto 3</h3>
+                <p>
+                    Mi proyecto 3
+                </p>
+            </article>
+        </section>
+        <section id="Blog">
+            <h2>Blogs</h2>
+        </section>
+        <section id="Contact">
+            <h2>
+                Contact
+            </h2>
+            <div>
+                <p>Socila media</p>
+            </div>
+        </section>
     </main>
 </body>
 </html>
