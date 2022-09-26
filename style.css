@@ -63,3 +63,43 @@ a {
     padding: 10px 0;
 
 }
+
+
+#Proyects {
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+}
+.proyect--title {
+    padding: 10px 0;
+}
+.proyect-container {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.proyect--articles {
+    width: 170px;
+    height: 150px;
+    border-radius: 5px ;
+    background-color: yellow;
+}
+.proyect-item--img {
+    width: 100%;
+    height: 100px;
+}
+.proyect-item--img img {
+    width: 154px;
+    height: 100px;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    margin: 8px 8px;
+    border-radius: 8px;
+}
+.proyect-item--info {
+    width: 100px;
+    height: 30px;
+    margin: 10px 8px;
+}
